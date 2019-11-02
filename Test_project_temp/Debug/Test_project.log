@@ -1,0 +1,165 @@
+﻿gtest-all.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:ICF' specification
+gtest-all.obj : error LNK2001: unresolved external symbol __purecall
+MockTestExample.obj : error LNK2001: unresolved external symbol __purecall
+gmock-all.obj : error LNK2001: unresolved external symbol __purecall
+gtest-all.obj : error LNK2019: unresolved external symbol "void * __cdecl operator new(unsigned int)" (??2@YAPAXI@Z) referenced in function "public: __thiscall testing::internal::AssertHelper::AssertHelper(enum testing::TestPartResult::Type,char const *,int,char const *)" (??0AssertHelper@internal@testing@@QAE@W4Type@TestPartResult@2@PBDH1@Z)
+MockTestExample.obj : error LNK2001: unresolved external symbol "void * __cdecl operator new(unsigned int)" (??2@YAPAXI@Z)
+Test_project_entry.obj : error LNK2001: unresolved external symbol "void * __cdecl operator new(unsigned int)" (??2@YAPAXI@Z)
+gmock-all.obj : error LNK2001: unresolved external symbol "void * __cdecl operator new(unsigned int)" (??2@YAPAXI@Z)
+gtest-all.obj : error LNK2019: unresolved external symbol "void __cdecl operator delete(void *)" (??3@YAXPAX@Z) referenced in function "void __cdecl std::_Deallocate(void *,unsigned int,unsigned int)" (?_Deallocate@std@@YAXPAXII@Z)
+MockTestExample.obj : error LNK2001: unresolved external symbol "void __cdecl operator delete(void *)" (??3@YAXPAX@Z)
+Test_project_entry.obj : error LNK2001: unresolved external symbol "void __cdecl operator delete(void *)" (??3@YAXPAX@Z)
+gmock-all.obj : error LNK2001: unresolved external symbol "void __cdecl operator delete(void *)" (??3@YAXPAX@Z)
+gtest-all.obj : error LNK2019: unresolved external symbol "void __cdecl operator delete(void *,unsigned int)" (??3@YAXPAXI@Z) referenced in function __unwindfunclet$??0AssertHelper@internal@testing@@QAE@W4Type@TestPartResult@2@PBDH1@Z$0
+MockTestExample.obj : error LNK2001: unresolved external symbol "void __cdecl operator delete(void *,unsigned int)" (??3@YAXPAXI@Z)
+gmock-all.obj : error LNK2001: unresolved external symbol "void __cdecl operator delete(void *,unsigned int)" (??3@YAXPAXI@Z)
+gtest-all.obj : error LNK2019: unresolved external symbol "void * __cdecl operator new[](unsigned int)" (??_U@YAPAXI@Z) referenced in function "private: void __thiscall testing::internal::FilePath::Normalize(void)" (?Normalize@FilePath@internal@testing@@AAEXXZ)
+gtest-all.obj : error LNK2019: unresolved external symbol "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z) referenced in function "private: void __thiscall testing::internal::FilePath::Normalize(void)" (?Normalize@FilePath@internal@testing@@AAEXXZ)
+gtest-all.obj : error LNK2019: unresolved external symbol _atexit referenced in function "void __cdecl `dynamic initializer for 'private: static class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > testing::internal::DeathTest::last_death_test_message_''(void)" (??__E?last_death_test_message_@DeathTest@internal@testing@@0V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@A@@YAXXZ)
+Test_project_entry.obj : error LNK2001: unresolved external symbol _atexit
+gmock-all.obj : error LNK2001: unresolved external symbol _atexit
+gtest-all.obj : error LNK2019: unresolved external symbol ___report_rangecheckfailure referenced in function "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl testing::internal::CodePointToUtf8(unsigned int)" (?CodePointToUtf8@internal@testing@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@I@Z)
+gtest-all.obj : error LNK2019: unresolved external symbol __Init_thread_header referenced in function "void __cdecl testing::internal::ColoredPrintf(enum testing::internal::GTestColor,char const *,...)" (?ColoredPrintf@internal@testing@@YAXW4GTestColor@12@PBDZZ)
+gmock-all.obj : error LNK2001: unresolved external symbol __Init_thread_header
+gtest-all.obj : error LNK2019: unresolved external symbol __Init_thread_abort referenced in function __unwindfunclet$?ColoredPrintf@internal@testing@@YAXW4GTestColor@12@PBDZZ$0
+gmock-all.obj : error LNK2001: unresolved external symbol __Init_thread_abort
+gtest-all.obj : error LNK2019: unresolved external symbol __Init_thread_footer referenced in function "void __cdecl testing::internal::ColoredPrintf(enum testing::internal::GTestColor,char const *,...)" (?ColoredPrintf@internal@testing@@YAXW4GTestColor@12@PBDZZ)
+gmock-all.obj : error LNK2001: unresolved external symbol __Init_thread_footer
+gtest-all.obj : error LNK2019: unresolved external symbol __imp___invalid_parameter referenced in function "public: bool __thiscall std::_Tree_const_iterator<class std::_Tree_val<struct std::_Tree_simple_types<char const *> > >::operator==(class std::_Tree_const_iterator<class std::_Tree_val<struct std::_Tree_simple_types<char const *> > > const &)const " (??8?$_Tree_const_iterator@V?$_Tree_val@U?$_Tree_simple_types@PBD@std@@@std@@@std@@QBE_NABV01@@Z)
+MockTestExample.obj : error LNK2001: unresolved external symbol __imp___invalid_parameter
+Test_project_entry.obj : error LNK2001: unresolved external symbol __imp___invalid_parameter
+gmock-all.obj : error LNK2001: unresolved external symbol __imp___invalid_parameter
+gtest-all.obj : error LNK2019: unresolved external symbol __imp__free referenced in function "public: __thiscall testing::internal::RE::~RE(void)" (??1RE@internal@testing@@QAE@XZ)
+gtest-all.obj : error LNK2019: unresolved external symbol __imp__malloc referenced in function "private: void __thiscall testing::internal::RE::Init(char const *)" (?Init@RE@internal@testing@@AAEXPBD@Z)
+gtest-all.obj : error LNK2019: unresolved external symbol __imp___errno referenced in function "bool __cdecl testing::internal::ParseNaturalNumber<int>(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,int *)" (??$ParseNaturalNumber@H@internal@testing@@YA_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAH@Z)
+gtest-all.obj : error LNK2019: unresolved external symbol __imp__exit referenced in function "public: __thiscall testing::internal::XmlUnitTestResultPrinter::XmlUnitTestResultPrinter(char const *)" (??0XmlUnitTestResultPrinter@internal@testing@@QAE@PBD@Z)
+gtest-all.obj : error LNK2019: unresolved external symbol __imp___exit referenced in function "protected: virtual void __thiscall testing::internal::DeathTestImpl::Abort(enum testing::internal::DeathTest::AbortReason)" (?Abort@DeathTestImpl@internal@testing@@MAEXW4AbortReason@DeathTest@23@@Z)
+gmock-all.obj : error LNK2001: unresolved external symbol __imp___exit
+gtest-all.obj : error LNK2019: unresolved external symbol __imp__abort referenced in function "void __cdecl testing::internal::posix::Abort(void)" (?Abort@posix@internal@testing@@YAXXZ)
+gmock-all.obj : error LNK2001: unresolved external symbol __imp__abort
+gtest-all.obj : error LNK2019: unresolved external symbol __imp___set_abort_behavior referenced in function "public: int __thiscall testing::UnitTest::Run(void)" (?Run@UnitTest@testing@@QAEHXZ)
+gtest-all.obj : error LNK2019: unresolved external symbol __imp___set_error_mode referenced in function "public: int __thiscall testing::UnitTest::Run(void)" (?Run@UnitTest@testing@@QAEHXZ)
+gtest-all.obj : error LNK2019: unresolved external symbol __imp__strtol referenced in function "bool __cdecl testing::internal::ParseInt32(class testing::Message const &,char const *,int *)" (?ParseInt32@internal@testing@@YA_NABVMessage@2@PBDPAH@Z)
+gtest-all.obj : error LNK2019: unresolved external symbol __imp___strtoui64 referenced in function "bool __cdecl testing::internal::ParseNaturalNumber<int>(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,int *)" (??$ParseNaturalNumber@H@internal@testing@@YA_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAH@Z)
+gtest-all.obj : error LNK2019: unresolved external symbol __imp__getenv referenced in function "char const * __cdecl testing::internal::posix::GetEnv(char const *)" (?GetEnv@posix@internal@testing@@YAPBDPBD@Z)
+gtest-all.obj : error LNK2019: unresolved external symbol __imp__memchr referenced in function "public: static char const * __cdecl std::char_traits<char>::find(char const *,unsigned int,char const &)" (?find@?$char_traits@D@std@@SAPBDPBDIABD@Z)
+gtest-all.obj : error LNK2019: unresolved external symbol __imp__memmove referenced in function "class testing::TestCase * * __cdecl std::_Copy_backward_memmove<class testing::TestCase * *,class testing::TestCase * *>(class testing::TestCase * *,class testing::TestCase * *,class testing::TestCase * *)" (??$_Copy_backward_memmove@PAPAVTestCase@testing@@PAPAV12@@std@@YAPAPAVTestCase@testing@@PAPAV12@00@Z)
+MockTestExample.obj : error LNK2001: unresolved external symbol __imp__memmove
+gmock-all.obj : error LNK2001: unresolved external symbol __imp__memmove
+gtest-all.obj : error LNK2019: unresolved external symbol __imp__strchr referenced in function "public: static bool __cdecl testing::internal::UnitTestOptions::FilterMatchesTest(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?FilterMatchesTest@UnitTestOptions@internal@testing@@SA_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z)
+gtest-all.obj : error LNK2019: unresolved external symbol __imp__strrchr referenced in function "private: char const * __thiscall testing::internal::FilePath::FindLastPathSeparator(void)const " (?FindLastPathSeparator@FilePath@internal@testing@@ABEPBDXZ)
+gtest-all.obj : error LNK2019: unresolved external symbol __imp__strstr referenced in function "private: static class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl testing::TestPartResult::ExtractSummary(char const *)" (?ExtractSummary@TestPartResult@testing@@CA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PBD@Z)
+gtest-all.obj : error LNK2019: unresolved external symbol __imp__wcsstr referenced in function "bool __cdecl testing::`anonymous namespace'::IsSubstringPred(wchar_t const *,wchar_t const *)" (?IsSubstringPred@?A0x7e1b404b@testing@@YA_NPB_W0@Z)
+gtest-all.obj : error LNK2019: unresolved external symbol __imp____acrt_iob_func referenced in function "public: __thiscall testing::internal::XmlUnitTestResultPrinter::XmlUnitTestResultPrinter(char const *)" (??0XmlUnitTestResultPrinter@internal@testing@@QAE@PBD@Z)
+gtest-all.obj : error LNK2019: unresolved external symbol __imp___wcsicmp referenced in function "public: static bool __cdecl testing::internal::String::CaseInsensitiveWideCStringEquals(wchar_t const *,wchar_t const *)" (?CaseInsensitiveWideCStringEquals@String@internal@testing@@SA_NPB_W0@Z)
+gtest-all.obj : error LNK2019: unresolved external symbol __imp___stat64i32 referenced in function "int __cdecl testing::internal::posix::Stat(char const *,struct _stat64i32 *)" (?Stat@posix@internal@testing@@YAHPBDPAU_stat64i32@@@Z)
+gtest-all.obj : error LNK2019: unresolved external symbol __imp__fclose referenced in function "public: __thiscall testing::internal::ScopedPrematureExitFile::ScopedPrematureExitFile(char const *)" (??0ScopedPrematureExitFile@internal@testing@@QAE@PBD@Z)
+gtest-all.obj : error LNK2019: unresolved external symbol __imp__fflush referenced in function "public: __thiscall testing::internal::CapturedStream::CapturedStream(int)" (??0CapturedStream@internal@testing@@QAE@H@Z)
+gtest-all.obj : error LNK2019: unresolved external symbol __imp___fileno referenced in function "int __cdecl testing::internal::posix::FileNo(struct _iobuf *)" (?FileNo@posix@internal@testing@@YAHPAU_iobuf@@@Z)
+gtest-all.obj : error LNK2019: unresolved external symbol __imp__fopen referenced in function "struct _iobuf * __cdecl testing::internal::posix::FOpen(char const *,char const *)" (?FOpen@posix@internal@testing@@YAPAU_iobuf@@PBD0@Z)
+gtest-all.obj : error LNK2019: unresolved external symbol __imp__fputc referenced in function "void __cdecl testing::internal::DeathTestAbort(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?DeathTestAbort@internal@testing@@YAXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+gtest-all.obj : error LNK2019: unresolved external symbol __imp__fread referenced in function "private: static class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl testing::internal::CapturedStream::ReadEntireFile(struct _iobuf *)" (?ReadEntireFile@CapturedStream@internal@testing@@CA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAU_iobuf@@@Z)
+gtest-all.obj : error LNK2019: unresolved external symbol __imp__fseek referenced in function "private: static unsigned int __cdecl testing::internal::CapturedStream::GetFileSize(struct _iobuf *)" (?GetFileSize@CapturedStream@internal@testing@@CAIPAU_iobuf@@@Z)
+gtest-all.obj : error LNK2019: unresolved external symbol __imp__ftell referenced in function "private: static unsigned int __cdecl testing::internal::CapturedStream::GetFileSize(struct _iobuf *)" (?GetFileSize@CapturedStream@internal@testing@@CAIPAU_iobuf@@@Z)
+gtest-all.obj : error LNK2019: unresolved external symbol __imp__fwrite referenced in function "public: __thiscall testing::internal::ScopedPrematureExitFile::ScopedPrematureExitFile(char const *)" (??0ScopedPrematureExitFile@internal@testing@@QAE@PBD@Z)
+gtest-all.obj : error LNK2019: unresolved external symbol __imp__remove referenced in function "public: __thiscall testing::internal::CapturedStream::~CapturedStream(void)" (??1CapturedStream@internal@testing@@QAE@XZ)
+gtest-all.obj : error LNK2019: unresolved external symbol __imp____stdio_common_vfprintf referenced in function __vfprintf_l
+gtest-all.obj : error LNK2019: unresolved external symbol __imp____stdio_common_vsnprintf_s referenced in function __vsnprintf_s_l
+gtest-all.obj : error LNK2019: unresolved external symbol __imp__fdopen referenced in function "struct _iobuf * __cdecl testing::internal::posix::FDOpen(int,char const *)" (?FDOpen@posix@internal@testing@@YAPAU_iobuf@@HPBD@Z)
+gtest-all.obj : error LNK2019: unresolved external symbol __imp___strdup referenced in function "char * __cdecl testing::internal::posix::StrDup(char const *)" (?StrDup@posix@internal@testing@@YAPADPBD@Z)
+gtest-all.obj : error LNK2019: unresolved external symbol __imp__strerror referenced in function "char const * __cdecl testing::internal::posix::StrError(int)" (?StrError@posix@internal@testing@@YAPBDH@Z)
+gtest-all.obj : error LNK2019: unresolved external symbol __imp___stricmp referenced in function "int __cdecl testing::internal::posix::StrCaseCmp(char const *,char const *)" (?StrCaseCmp@posix@internal@testing@@YAHPBD0@Z)
+gtest-all.obj : error LNK2019: unresolved external symbol __imp__strncmp referenced in function "char const * __cdecl testing::internal::ParseFlagValue(char const *,char const *,bool)" (?ParseFlagValue@internal@testing@@YAPBDPBD0_N@Z)
+gmock-all.obj : error LNK2001: unresolved external symbol __imp__strncmp
+gtest-all.obj : error LNK2019: unresolved external symbol __imp____std_exception_copy referenced in function "public: __thiscall std::exception::exception(class std::exception const &)" (??0exception@std@@QAE@ABV01@@Z)
+MockTestExample.obj : error LNK2001: unresolved external symbol __imp____std_exception_copy
+gtest-all.obj : error LNK2019: unresolved external symbol __imp____std_exception_destroy referenced in function "public: virtual __thiscall std::exception::~exception(void)" (??1exception@std@@UAE@XZ)
+MockTestExample.obj : error LNK2001: unresolved external symbol __imp____std_exception_destroy
+gtest-all.obj : error LNK2019: unresolved external symbol __imp___CrtDbgReportW referenced in function "public: bool __thiscall std::_Tree_const_iterator<class std::_Tree_val<struct std::_Tree_simple_types<char const *> > >::operator==(class std::_Tree_const_iterator<class std::_Tree_val<struct std::_Tree_simple_types<char const *> > > const &)const " (??8?$_Tree_const_iterator@V?$_Tree_val@U?$_Tree_simple_types@PBD@std@@@std@@@std@@QBE_NABV01@@Z)
+MockTestExample.obj : error LNK2001: unresolved external symbol __imp___CrtDbgReportW
+Test_project_entry.obj : error LNK2001: unresolved external symbol __imp___CrtDbgReportW
+gmock-all.obj : error LNK2001: unresolved external symbol __imp___CrtDbgReportW
+gtest-all.obj : error LNK2019: unresolved external symbol __imp__isdigit referenced in function "bool __cdecl testing::internal::IsDigit(char)" (?IsDigit@internal@testing@@YA_ND@Z)
+gmock-all.obj : error LNK2001: unresolved external symbol __imp__isdigit
+gtest-all.obj : error LNK2019: unresolved external symbol __imp__isxdigit referenced in function "bool __cdecl testing::internal::IsXDigit(char)" (?IsXDigit@internal@testing@@YA_ND@Z)
+gtest-all.obj : error LNK2019: unresolved external symbol __imp__isspace referenced in function "bool __cdecl testing::internal::IsSpace(char)" (?IsSpace@internal@testing@@YA_ND@Z)
+gtest-all.obj : error LNK2019: unresolved external symbol __imp__toupper referenced in function "char __cdecl testing::internal::ToUpper(char)" (?ToUpper@internal@testing@@YADD@Z)
+gtest-all.obj : error LNK2019: unresolved external symbol __imp___getcwd referenced in function "public: static class testing::internal::FilePath __cdecl testing::internal::FilePath::GetCurrentDir(void)" (?GetCurrentDir@FilePath@internal@testing@@SA?AV123@XZ)
+gtest-all.obj : error LNK2019: unresolved external symbol __imp___mkdir referenced in function "public: bool __thiscall testing::internal::FilePath::CreateFolder(void)const " (?CreateFolder@FilePath@internal@testing@@QBE_NXZ)
+gtest-all.obj : error LNK2019: unresolved external symbol __imp___isatty referenced in function "int __cdecl testing::internal::posix::IsATTY(int)" (?IsATTY@posix@internal@testing@@YAHH@Z)
+gtest-all.obj : error LNK2019: unresolved external symbol __imp___open_osfhandle referenced in function "public: virtual enum testing::internal::DeathTest::TestRole __thiscall testing::internal::WindowsDeathTest::AssumeRole(void)" (?AssumeRole@WindowsDeathTest@internal@testing@@UAE?AW4TestRole@DeathTest@23@XZ)
+gtest-all.obj : error LNK2019: unresolved external symbol __imp__close referenced in function "public: __thiscall testing::internal::CapturedStream::CapturedStream(int)" (??0CapturedStream@internal@testing@@QAE@H@Z)
+gtest-all.obj : error LNK2019: unresolved external symbol __imp__creat referenced in function "public: __thiscall testing::internal::CapturedStream::CapturedStream(int)" (??0CapturedStream@internal@testing@@QAE@H@Z)
+gtest-all.obj : error LNK2019: unresolved external symbol __imp__dup referenced in function "public: __thiscall testing::internal::CapturedStream::CapturedStream(int)" (??0CapturedStream@internal@testing@@QAE@H@Z)
+gtest-all.obj : error LNK2019: unresolved external symbol __imp__dup2 referenced in function "public: __thiscall testing::internal::CapturedStream::CapturedStream(int)" (??0CapturedStream@internal@testing@@QAE@H@Z)
+gtest-all.obj : error LNK2019: unresolved external symbol __imp__read referenced in function "int __cdecl testing::internal::posix::Read(int,void *,unsigned int)" (?Read@posix@internal@testing@@YAHHPAXI@Z)
+gtest-all.obj : error LNK2019: unresolved external symbol __imp__write referenced in function "int __cdecl testing::internal::posix::Write(int,void const *,unsigned int)" (?Write@posix@internal@testing@@YAHHPBXI@Z)
+gtest-all.obj : error LNK2019: unresolved external symbol __imp___localtime64 referenced in function _localtime
+gtest-all.obj : error LNK2019: unresolved external symbol __imp___ftime64 referenced in function "__int64 __cdecl testing::internal::GetTimeInMillis(void)" (?GetTimeInMillis@internal@testing@@YA_JXZ)
+gtest-all.obj : error LNK2019: unresolved external symbol @_RTC_CheckStackVars@8 referenced in function __catch$??$?6DU?$char_traits@D@std@@V?$allocator@D@1@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@@Z$0
+MockTestExample.obj : error LNK2001: unresolved external symbol @_RTC_CheckStackVars@8
+Test_project_entry.obj : error LNK2001: unresolved external symbol @_RTC_CheckStackVars@8
+gmock-all.obj : error LNK2001: unresolved external symbol @_RTC_CheckStackVars@8
+gtest-all.obj : error LNK2019: unresolved external symbol @__security_check_cookie@4 referenced in function __unwindfunclet$??$?0AAV?$_Tree_const_iterator@V?$_Tree_val@U?$_Tree_simple_types@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@@std@@@std@@AAV01@X$0A@@?$pair@V?$_Tree_const_iterator@V?$_Tree_val@U?$_Tree_simple_types@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@@std@@@std@@V12@@std@@QAE@AAV?$_Tree_const_iterator@V?$_Tree_val@U?$_Tree_simple_types@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@@std@@@1@0@Z$0
+MockTestExample.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+Test_project_entry.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+gmock-all.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+gtest-all.obj : error LNK2019: unresolved external symbol __CxxThrowException@8 referenced in function __catch$??$HandleExceptionsInMethodIfSupported@VTest@testing@@X@internal@testing@@YAXPAVTest@1@P821@AEXXZPBD@Z$0
+MockTestExample.obj : error LNK2001: unresolved external symbol __CxxThrowException@8
+gmock-all.obj : error LNK2001: unresolved external symbol __CxxThrowException@8
+gtest-all.obj : error LNK2019: unresolved external symbol __RTC_CheckEsp referenced in function "public: __thiscall std::_Compressed_pair<struct std::_Wrap_alloc<class std::allocator<char> >,class std::_String_val<struct std::_Simple_types<char> >,1>::_Compressed_pair<struct std::_Wrap_alloc<class std::allocator<char> >,class std::_String_val<struct std::_Simple_types<char> >,1><>(struct std::_Zero_then_variadic_args_t)" (??$?0$$V@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@D@std@@@std@@V?$_String_val@U?$_Simple_types@D@std@@@2@$00@std@@QAE@U_Zero_then_variadic_args_t@1@@Z)
+MockTestExample.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+Test_project_entry.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+gmock-all.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+gtest-all.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+MockTestExample.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+Test_project_entry.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+gmock-all.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+gtest-all.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+MockTestExample.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+Test_project_entry.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+gmock-all.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+gtest-all.obj : error LNK2019: unresolved external symbol ___CxxFrameHandler3 referenced in function __unwindfunclet$??$?0AAV?$_Tree_const_iterator@V?$_Tree_val@U?$_Tree_simple_types@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@@std@@@std@@AAV01@X$0A@@?$pair@V?$_Tree_const_iterator@V?$_Tree_val@U?$_Tree_simple_types@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@@std@@@std@@V12@@std@@QAE@AAV?$_Tree_const_iterator@V?$_Tree_val@U?$_Tree_simple_types@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@@std@@@1@0@Z$0
+MockTestExample.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+Test_project_entry.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+gmock-all.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+gtest-all.obj : error LNK2019: unresolved external symbol __alldiv referenced in function "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl testing::internal::FormatEpochTimeInMillisAsIso8601(__int64)" (?FormatEpochTimeInMillisAsIso8601@internal@testing@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@_J@Z)
+gtest-all.obj : error LNK2019: unresolved external symbol __allmul referenced in function "__int64 __cdecl testing::internal::GetTimeInMillis(void)" (?GetTimeInMillis@internal@testing@@YA_JXZ)
+gtest-all.obj : error LNK2019: unresolved external symbol __chkstk referenced in function "public: virtual enum testing::internal::DeathTest::TestRole __thiscall testing::internal::WindowsDeathTest::AssumeRole(void)" (?AssumeRole@WindowsDeathTest@internal@testing@@UAE?AW4TestRole@DeathTest@23@XZ)
+gtest-all.obj : error LNK2019: unresolved external symbol __except_handler4 referenced in function "void __cdecl testing::internal::HandleSehExceptionsInMethodIfSupported<class testing::Test,void>(class testing::Test *,void (__thiscall testing::Test::*)(void),char const *)" (??$HandleSehExceptionsInMethodIfSupported@VTest@testing@@X@internal@testing@@YAXPAVTest@1@P821@AEXXZPBD@Z)
+gtest-all.obj : error LNK2019: unresolved external symbol __ltod3 referenced in function "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl testing::internal::FormatTimeInMillisAsSeconds(__int64)" (?FormatTimeInMillisAsSeconds@internal@testing@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@_J@Z)
+gtest-all.obj : error LNK2019: unresolved external symbol _memcmp referenced in function "public: static int __cdecl std::char_traits<char>::compare(char const *,char const *,unsigned int)" (?compare@?$char_traits@D@std@@SAHPBD0I@Z)
+MockTestExample.obj : error LNK2001: unresolved external symbol _memcmp
+gmock-all.obj : error LNK2001: unresolved external symbol _memcmp
+gtest-all.obj : error LNK2019: unresolved external symbol _memcpy referenced in function "private: void __thiscall testing::internal::RE::Init(char const *)" (?Init@RE@internal@testing@@AAEXPBD@Z)
+MockTestExample.obj : error LNK2001: unresolved external symbol _memcpy
+Test_project_entry.obj : error LNK2001: unresolved external symbol _memcpy
+gmock-all.obj : error LNK2001: unresolved external symbol _memcpy
+gtest-all.obj : error LNK2019: unresolved external symbol _memset referenced in function "public: __thiscall testing::internal::CapturedStream::CapturedStream(int)" (??0CapturedStream@internal@testing@@QAE@H@Z)
+gmock-all.obj : error LNK2001: unresolved external symbol _memset
+gtest-all.obj : error LNK2001: unresolved external symbol __Init_thread_epoch
+gmock-all.obj : error LNK2001: unresolved external symbol __Init_thread_epoch
+gtest-all.obj : error LNK2001: unresolved external symbol "const type_info::`vftable'" (??_7type_info@@6B@)
+MockTestExample.obj : error LNK2001: unresolved external symbol "const type_info::`vftable'" (??_7type_info@@6B@)
+Test_project_entry.obj : error LNK2001: unresolved external symbol "const type_info::`vftable'" (??_7type_info@@6B@)
+gmock-all.obj : error LNK2001: unresolved external symbol "const type_info::`vftable'" (??_7type_info@@6B@)
+gtest-all.obj : error LNK2019: unresolved external symbol ___security_cookie referenced in function "public: __thiscall std::pair<class std::_Tree_const_iterator<class std::_Tree_val<struct std::_Tree_simple_types<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > >,class std::_Tree_const_iterator<class std::_Tree_val<struct std::_Tree_simple_types<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > > >::pair<class std::_Tree_const_iterator<class std::_Tree_val<struct std::_Tree_simple_types<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > >,class std::_Tree_const_iterator<class std::_Tree_val<struct std::_Tree_simple_types<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > > ><class std::_Tree_const_iterator<class std::_Tree_val<struct std::_Tree_simple_types<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > > &,class std::_Tree_const_iterator<class std::_Tree_val<struct std::_Tree_simple_types<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > > &,void,0>(class std::_Tree_const_iterator<class std::_Tree_val<struct std::_Tree_simple_types<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > > &,class std::_Tree_const_iterator<class std::_Tree_val<struct std::_Tree_simple_types<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > > > &)" (??$?0AAV?$_Tree_const_iterator@V?$_Tree_val@U?$_Tree_simple_types@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@@std@@@std@@AAV01@X$0A@@?$pair@V?$_Tree_const_iterator@V?$_Tree_val@U?$_Tree_simple_types@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@@std@@@std@@V12@@std@@QAE@AAV?$_Tree_const_iterator@V?$_Tree_val@U?$_Tree_simple_types@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@@std@@@1@0@Z)
+MockTestExample.obj : error LNK2001: unresolved external symbol ___security_cookie
+Test_project_entry.obj : error LNK2001: unresolved external symbol ___security_cookie
+gmock-all.obj : error LNK2001: unresolved external symbol ___security_cookie
+gtest-all.obj : error LNK2001: unresolved external symbol __fltused
+gtest-all.obj : error LNK2019: unresolved external symbol __tls_array referenced in function "void __cdecl testing::internal::ColoredPrintf(enum testing::internal::GTestColor,char const *,...)" (?ColoredPrintf@internal@testing@@YAXW4GTestColor@12@PBDZZ)
+gmock-all.obj : error LNK2001: unresolved external symbol __tls_array
+gtest-all.obj : error LNK2019: unresolved external symbol __tls_index referenced in function "void __cdecl testing::internal::ColoredPrintf(enum testing::internal::GTestColor,char const *,...)" (?ColoredPrintf@internal@testing@@YAXW4GTestColor@12@PBDZZ)
+gmock-all.obj : error LNK2001: unresolved external symbol __tls_index
+MockTestExample.obj : error LNK2019: unresolved external symbol __imp___wassert referenced in function "public: __thiscall testing::internal::linked_ptr<class testing::MatcherInterface<int &> const >::linked_ptr<class testing::MatcherInterface<int &> const >(class testing::internal::linked_ptr<class testing::MatcherInterface<int &> const > const &)" (??0?$linked_ptr@$$CBV?$MatcherInterface@AAH@testing@@@internal@testing@@QAE@ABV012@@Z)
+gmock-all.obj : error LNK2001: unresolved external symbol __imp___wassert
+gmock-all.obj : error LNK2019: unresolved external symbol __imp__rand referenced in function "public: void __thiscall testing::internal::MatchMatrix::Randomize(void)" (?Randomize@MatchMatrix@internal@testing@@QAEXXZ)
+gmock-all.obj : error LNK2019: unresolved external symbol __imp__isalpha referenced in function "bool __cdecl testing::internal::IsAlpha(char)" (?IsAlpha@internal@testing@@YA_ND@Z)
+gmock-all.obj : error LNK2019: unresolved external symbol __imp__isupper referenced in function "bool __cdecl testing::internal::IsUpper(char)" (?IsUpper@internal@testing@@YA_ND@Z)
+gmock-all.obj : error LNK2019: unresolved external symbol __imp__islower referenced in function "bool __cdecl testing::internal::IsLower(char)" (?IsLower@internal@testing@@YA_ND@Z)
+gmock-all.obj : error LNK2019: unresolved external symbol __imp__isalnum referenced in function "bool __cdecl testing::internal::IsAlNum(char)" (?IsAlNum@internal@testing@@YA_ND@Z)
+gmock-all.obj : error LNK2019: unresolved external symbol __imp__tolower referenced in function "char __cdecl testing::internal::ToLower(char)" (?ToLower@internal@testing@@YADD@Z)
+LINK : error LNK2001: unresolved external symbol _mainCRTStartup
+LINK : error LNK2001: unresolved external symbol __load_config_used
+C:\work\SVN\CLEAN_VPU_SW\\Output\Debug\Test_project.exe : fatal error LNK1120: 98 unresolved externals
